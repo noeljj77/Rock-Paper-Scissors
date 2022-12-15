@@ -86,7 +86,7 @@ button{
 
 
 .Main-Screen{
-    margin-top: 15%;
+    margin-top: 8%;
     display: block;
     align-items: center;
     text-align: center;
@@ -95,15 +95,15 @@ button{
 
 .Tie{
     display: none;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 .Lost{
     display: none;
-    margin-top: 15%;
+    margin-top: 8%;
 }
 
 .Win{
     display: none;
-    margin-top: 15%;
+    margin-top: 8%;
 }
