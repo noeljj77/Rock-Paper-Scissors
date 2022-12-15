@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+        
+        <title>Rock Paper Scissors</title>
+
+    </head>
+    
+
+    <body>
+            <h1>ROCK PAPER SCISSORS VS CPU</h1>
+
+            <div class = "Main-Screen" id = "Main-Screen">
+            <center>
+                <button class = "glow-on-hover" type = "button" onclick = "rock('r')">ROCK</button><br>
+                <button class = "glow-on-hover" type = "button" onclick = "paper('p')">PAPER</button><br>
+                <button class = "glow-on-hover" type = "button" onclick = "scissors('s')">SCISSORS</button><br>
+            </center>
+            </div>    
+
+
+            <div class = "Tie" id = "Tie">
+                <h2 id = cpu-choice-tie></h2>
+                <br><br>
+                <h1>IT'S A TIE</h1>
+                <br>
+                <center><button class = "glow-on-hover" type="button" onclick="again()">PLAY AGAIN</button></center>
+            </div>
+            <div class = "Lost" id = "Lost">
+                <h2 id = cpu-choice-lost></h2>
+                <br><br>
+                <h1>YOU LOST</h1>
+                <br>
+                <center><button class = "glow-on-hover" type="button" onclick="again()">PLAY AGAIN</button></center>
+            </div>
+            <div class = "Win" id = "Win">
+                <h2 id = cpu-choice-win></h2>
+                <br><br>
+                <h1>YOU WON</h1>
+                <br>
+                <center><button class = "glow-on-hover" type="button" onclick="again()">PLAY AGAIN</button></center>
+            </div>
+
+
+    </body>
+
+    <script src="rps.js"></script>
+
+</html>
