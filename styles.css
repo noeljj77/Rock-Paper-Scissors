@@ -21,7 +21,7 @@ html,body {
 button{
     font-family: 'Orbitron', sans-serif;
     display: block;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     align-items: center;
     position: absolute;
@@ -29,16 +29,16 @@ button{
 }
 
 .glow-on-hover {
-    width: 220px;
-    height: 50px;
+    width: 120px;
+    height: 120px;
     border: none;
     outline: none;
     color: #fff;
-    background: #111;
+    background: rgb(0, 0, 0);
     cursor: pointer;
     position: relative;
     z-index: 0;
-    border-radius: 10px;
+    border-radius: 50px;
     text-align: center;
     align-self: center;
 }
@@ -56,7 +56,7 @@ button{
     animation: glowing 20s linear infinite;
     opacity: 0;
     transition: opacity .3s ease-in-out;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 .glow-on-hover:active {
     color: #000
@@ -73,10 +73,10 @@ button{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #111;
+    background: rgb(0, 0, 0);
     left: 0;
     top: 0;
-    border-radius: 10px;
+    border-radius: 50px;
 }
 @keyframes glowing {
     0% { background-position: 0 0; }
@@ -86,8 +86,8 @@ button{
 
 
 .Main-Screen{
-    margin-top: 8%;
-    display: block;
+    margin-top: 5%;
+    display: relative;
     align-items: center;
     text-align: center;
     justify-content: center;
